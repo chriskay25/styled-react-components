@@ -16,7 +16,7 @@ const Flex = styled.div`
         else if (props.justifyBetween) return 'space-between'
         else if (props.justifyEnd) return 'flex-end'
         return 'flex-start'
-    }}
+    }};
     align-items: ${props => {
         if (props.alignItems) return props.alignItems
         else if (props.alignStretch) return 'stretch'
@@ -24,7 +24,7 @@ const Flex = styled.div`
         if (props.alignCenter) return 'center'
         else if (props.alignBaseline) return 'baseline'
         return 'flex-start'
-    }}
+    }};
     align-content: ${props => {
         if (props.alignContent) return props.content
         else if (props.contentStart) return 'flex-start'
@@ -33,7 +33,7 @@ const Flex = styled.div`
         else if (props.contentBetween) return 'space-between'
         else if (props.contentAround) return 'contentAround'
         return 'stretch'
-    }}
+    }};
 `
 
 export const Column = styled.div`
