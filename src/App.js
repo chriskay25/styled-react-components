@@ -1,13 +1,17 @@
 import './App.css';
-import StyledDiv from './styled-components/StyledDiv'
+import ContainerExamples from './examples/ContainerExamples'
+import FlexExamples from './examples/FlexExamples'
+import CardExamples from './examples/CardExamples'
+import ButtonExamples from './examples/ButtonExamples'
+
 
 function App() {
   return (
     <div className="App">
-      App
-      <StyledDiv>
-        Does this work?
-      </StyledDiv>
+      <ContainerExamples />
+      <FlexExamples />
+      <CardExamples />
+      <ButtonExamples />
     </div>
   );
 }
